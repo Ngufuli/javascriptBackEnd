@@ -1,7 +1,11 @@
 window.onload = function(){
-    let cars = ['Ferrari', 'Jaguar','lamborghini','RangeRover'];
 
-    cars.forEach(function(out){
-        console.log(out);
-    });
+    function callback(val){
+        console.log(val);
+    }
+
+    let cars = ['Ferrari', 'Jaguar','lamborghini','RangeRover','Mercedez'];
+
+    cars.forEach(callback);
+    
 }
