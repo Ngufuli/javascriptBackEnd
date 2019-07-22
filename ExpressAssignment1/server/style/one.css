@@ -1,0 +1,9 @@
+.backgroundColor {
+    background-image: linear-gradient(13deg, #ccffff, #ffcccc);
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
