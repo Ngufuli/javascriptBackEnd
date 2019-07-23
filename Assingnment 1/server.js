@@ -46,3 +46,5 @@ else if(req.url === '/div'){
 else{
     app.post(res.send(404));
 }
+
+app.listen(5000);
