@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-guide",
+  "version": "0.0.1",
+  "description": "A guide to node js programming",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashi20008/NodeJS-Guide.git"
+  },
+  "author": "Shashi Shekhar (shashi20008@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashi20008/NodeJS-Guide/issues"
+  },
+  "homepage": "https://github.com/shashi20008/NodeJS-Guide#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.6.6",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4"
+  }
+}

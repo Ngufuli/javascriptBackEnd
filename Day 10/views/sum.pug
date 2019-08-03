@@ -1,0 +1,40 @@
+doctype html
+html
+    head
+        title Sum of numbers
+        link(rel="stylesheet" href="/css/bootstrap.min.css")
+        style.
+            html, body, .container {
+                height:100%; 
+                width: 100%; 
+                margin: 0;
+                padding: 0;
+            }
+            * {
+                box-sizing: border-box;
+            }
+            .container {
+                display: flex; 
+                flex-direction: column;
+                justify-content: center; 
+                align-items: center
+            }
+            .btn-container {
+                display: flex;
+                justify-content: center;
+            }
+            .form-field {
+                margin-bottom: 10px;
+            }
+    body
+        div.container
+            if sum
+                div.response.form-field Response is: #{sum}
+
+            form(action="/add/compute" method="POST" style="width=400px")
+                div.form-field
+                    input.form-control(name="number1" placeholder="Enter number 1")
+                div.form-field
+                    input.form-control(name="number2" placeholder="Enter number 2")
+                div.btn-container
+                    button.btn.btn-primary(type="submit") Add
